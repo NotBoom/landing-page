@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/lemon-milk');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.flex-container div {
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.section1 {
+    background-color: #1f2937;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    justify-content: top;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-family: 'LEMON MILK', sans-serif;
+    color: peachpuff;
+    justify-content: left;
+}
+
+.header-items {
+    justify-content: right;
+}
+
+.header-items div {
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}
+
+.content1 {
+    flex-direction: column;
+    justify-content: left;
+}
+
+.content1 div {
+    justify-content: left;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: white;
+}
+
+.text {
+    font-size: 18px;
+    color: gray;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image {
+    justify-content: right;
+}
